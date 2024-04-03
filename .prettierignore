@@ -1,0 +1,9 @@
+dist
+.jest
+src/assets/*
+yarn.lock
+package-lock.json
+.gitattributes
+.gitignore
+.eslintignore
+coverage

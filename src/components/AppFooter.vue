@@ -17,9 +17,10 @@
 
     <div
       class="text-caption text-disabled"
-      style="position: absolute; right: 16px;"
+      style="position: absolute; right: 16px"
     >
-      &copy; 2016-{{ (new Date()).getFullYear() }} <span class="d-none d-sm-inline-block">e-Cattle</span>
+      &copy; 2016-{{ new Date().getFullYear() }}
+      <span class="d-none d-sm-inline-block">e-Cattle</span>
       —
       <a
         class="text-decoration-none on-surface"
@@ -34,26 +35,26 @@
 </template>
 
 <script setup>
-  const items = [
-    {
-      title: 'Documentação e-Cattle',
-      icon: `mdi-help-circle`,
-      href: 'https://documentation.e-cattle.com/',
-    },
-    {
-      title: 'Vuetify GitHub',
-      icon: `mdi-github`,
-      href: 'https://github.com/e-cattle',
-    }
-  ]
+const items = [
+  {
+    title: 'Documentação e-Cattle',
+    icon: `mdi-help-circle`,
+    href: 'https://documentation.e-cattle.com/'
+  },
+  {
+    title: 'Vuetify GitHub',
+    icon: `mdi-github`,
+    href: 'https://github.com/e-cattle'
+  }
+]
 </script>
 
 <style scoped lang="sass">
-  .social-link :deep(.v-icon)
-    color: rgba(var(--v-theme-on-background), var(--v-disabled-opacity))
-    text-decoration: none
-    transition: .2s ease-in-out
+.social-link :deep(.v-icon)
+  color: rgba(var(--v-theme-on-background), var(--v-disabled-opacity))
+  text-decoration: none
+  transition: .2s ease-in-out
 
-    &:hover
-      color: rgba(25, 118, 210, 1)
+  &:hover
+    color: rgba(25, 118, 210, 1)
 </style>

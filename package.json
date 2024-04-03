@@ -4,7 +4,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "format:check": "prettier --check .",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@mdi/font": "7.0.96",
@@ -16,6 +18,7 @@
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
     "@vitejs/plugin-vue": "^5.0.4",
+    "prettier": "^3.2.5",
     "sass": "^1.71.1",
     "unplugin-fonts": "^1.1.1",
     "unplugin-vue-components": "^0.26.0",

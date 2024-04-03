@@ -13,6 +13,8 @@
     "vuetify": "^3.5.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.2.1",
+    "@commitlint/config-conventional": "^19.1.0",
     "@vitejs/plugin-vue": "^5.0.4",
     "sass": "^1.71.1",
     "unplugin-fonts": "^1.1.1",

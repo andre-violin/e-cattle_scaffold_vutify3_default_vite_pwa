@@ -38,12 +38,12 @@
 const items = [
   {
     title: 'Documentação e-Cattle',
-    icon: `mdi-help-circle`,
+    icon: 'mdi-help-circle',
     href: 'https://documentation.e-cattle.com/'
   },
   {
     title: 'Vuetify GitHub',
-    icon: `mdi-github`,
+    icon: 'mdi-github',
     href: 'https://github.com/e-cattle'
   }
 ]
